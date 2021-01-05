@@ -13,9 +13,7 @@ class Main extends React.Component{
                     <Alert warna={item.color} teks={item.text} />
                 ))}
                 
-                { data.forEach((it,index) => (
-                    <Alert warna={it.color} teks={it.text} />
-                ))}
+                
             </div>
         )
     }
