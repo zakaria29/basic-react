@@ -28,8 +28,13 @@ class Navbar extends React.Component{
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact" className="nav-link">
-                                Contact
+                            <Link to="/gallery" className="nav-link">
+                                Gallery
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/cart" className="nav-link">
+                                Cart
                             </Link>
                         </li>
                     </ul>
